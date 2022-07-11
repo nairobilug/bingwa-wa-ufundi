@@ -1,0 +1,17 @@
+#!/usr/bin/env guile
+!#
+
+(use-modules (doug))
+(use-modules (gnu packages))
+(use-modules (guix lint))
+(use-modules (guix scripts lint))
+(use-modules (guix store))
+(use-modules (guix ui))
+
+(with-error-handling
+  (with-store store
+    (fold-packages
+      (lambda (package _)
+        (run-checkers package %local-checkers #:store store))
+      #f
+      #:select? (negate guix-package?))))

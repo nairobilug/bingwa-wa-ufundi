@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -eux
+
+CHANNELS="$(dirname $0)/channels"
+PROFILE="$(mktemp -d)/.guix-profile"
+
+guix pull -v0 -C "$CHANNELS" -p "$PROFILE"

@@ -1,0 +1,14 @@
+;; Bingwa wa Ufundi news
+;;
+;; Copyright © 2022 jgart <jgart@dismail.de
+;;
+;; Copying and distribution of this file, with or without modification, are
+;; permitted in any medium without royalty provided the copyright notice and
+;; this notice are preserved.
+
+(channel-news
+  (version 0)
+  (entry (commit "dc7baa526442c70479d2cabd37c8a11873c5f0f5")
+         (title (en "Bingwa wa Ufundi"))
+         (body (en "@emph{Hello world}!  We have an upside down cat package."))))
+
