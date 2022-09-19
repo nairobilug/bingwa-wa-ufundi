@@ -1,5 +1,6 @@
 ;;; GNU Guix --- Functional package management for GNU
 ;;; Copyright © 2022 jgart <jgart@dismail.de>
+;;; Copyright © 2022 Munyoki Kilyungi <me@bonfacemunyoki.com>
 ;;;
 ;;; This file is part of GNU Guix.
 ;;;
@@ -16,7 +17,7 @@
 ;;; You should have received a copy of the GNU General Public License
 ;;; along with GNU Guix.  If not, see <http://www.gnu.org/licenses/>.
 
-(define-module (pet-care cute cats)
+(define-module (ubunifu furushi cats)
   #:use-module (guix)
   #:use-module (guix git-download)
   #:use-module (guix packages)
